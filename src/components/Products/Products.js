@@ -76,7 +76,7 @@ const Products = () => {
             Our Products
           </h2>
         </div>
-        <div className="flex flex-col items-center mt-10">
+        <div className="flex flex-col items-center mt-6">
           <div className="flex items-center gap-7 h-16">
             {categories.map((category) => {
               return (
