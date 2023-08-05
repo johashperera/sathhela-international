@@ -10,6 +10,7 @@ module.exports = {
     "gatsby-plugin-postcss",
     "gatsby-plugin-image",
     "gatsby-plugin-sitemap",
+    "gatsby-plugin-scroll-reveal",
     {
       resolve: "gatsby-plugin-manifest",
       options: {
