@@ -38,7 +38,7 @@ const Header = () => {
               Sathhela International{" "}
             </span>
           </div>
-          <ul className="flex items-center uppercase gap-9">
+          <ul className="flex items-center uppercase gap-7 text-sm">
             <li>
               <Link>Home</Link>
             </li>

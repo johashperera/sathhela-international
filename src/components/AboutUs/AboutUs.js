@@ -41,7 +41,7 @@ const AboutUs = () => {
               <p>Lorem ipsum dolor sit</p>
             </div>
           </div>
-          <div className="mt-6 flex items-center gap-4">
+          <div className="mt-8 flex items-center gap-4">
             <button className="bg-primary text-white px-6 py-2 ">
               Contact Us
             </button>
