@@ -1,17 +1,23 @@
 import React, { useState } from "react";
 import LadiesBriefs from "./LadiesBriefs/LadiesBriefs";
 import Leggings from "./Leggings/Leggings";
+import TShirts from "./TShirts/TShirts";
 
 const Products = () => {
   const initialCategories = [
     {
       label: "Ladies Briefs",
       value: 1,
-      selected: true,
+      selected: false,
     },
     {
       label: "Ladies Leggings",
       value: 2,
+      selected: true,
+    },
+    {
+      label: "T-Shirts",
+      value: 5,
       selected: false,
     },
     {
@@ -24,11 +30,7 @@ const Products = () => {
       value: 4,
       selected: false,
     },
-    {
-      label: "T-Shirts",
-      value: 5,
-      selected: false,
-    },
+
     {
       label: "Sarongs",
       value: 6,
@@ -58,6 +60,8 @@ const Products = () => {
         return <LadiesBriefs />;
       case 2:
         return <Leggings />;
+      case 5:
+        return <TShirts />;
       default:
         return null;
     }
@@ -73,7 +77,7 @@ const Products = () => {
           </h2>
         </div>
         <div className="flex flex-col items-center mt-10">
-          <div className="flex items-center gap-7">
+          <div className="flex items-center gap-7 h-16">
             {categories.map((category) => {
               return (
                 <button
