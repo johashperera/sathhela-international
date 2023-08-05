@@ -64,7 +64,9 @@ const Hero = () => {
           data-sal-easing="ease"
         >
           <StaticImage src="../../images/machine.png" width={50} />
-          <span className="text-lg font-medium mt-5">We Design Fabric</span>
+          <span className="text-lg font-medium mt-5">
+            We have the Good Stuff
+          </span>
           <p className="text-textHint">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et
             metus vel odio pellentesque pellentesque
@@ -78,7 +80,7 @@ const Hero = () => {
           data-sal-easing="ease"
         >
           <StaticImage src="../../images/export.png" width={50} />
-          <span className="text-lg font-medium mt-5">We Design Fabric</span>
+          <span className="text-lg font-medium mt-5">Always Genuine</span>
           <p className="text-textHint">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et
             metus vel odio pellentesque pellentesque
