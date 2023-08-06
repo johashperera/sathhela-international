@@ -15,7 +15,7 @@ const AboutUs = () => {
           <span className="text-textHint">WHO WE ARE</span>
           <h2 className="text-4xl text-white">An Ultimate Textile Company</h2>
           <span className="text-4xl font-bold text-white">
-            In the Market Since 1999
+            In the Market Since 2008
           </span>
           <p className="text-textHint mt-10">
             Morbi maximus posuere velit vitae aliquam. Nulla dictum viverra leo,
