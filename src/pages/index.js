@@ -8,6 +8,7 @@ import Products from "../components/Products/Products";
 import ContactUs from "../components/ContactUs/ContactUs";
 import Brands from "../components/Brands/Brands";
 import Footer from "../components/Footer/Footer";
+import Image from "../images/og-image.png";
 
 const index = () => {
   return (
@@ -26,3 +27,20 @@ const index = () => {
 };
 
 export default index;
+
+export const Head = () => (
+  <>
+    <title>Sathhela International</title>
+    <meta
+      name="description"
+      content="Apparel Manufacturers specialized in Knit Fabrics"
+    />
+    <meta property="og:title" content="Sathhela International" />
+    <meta
+      property="og:description"
+      content="Apparel Manufacturers specialized in Knit Fabrics"
+    />
+    <meta property="og:image" content={Image} />
+    <meta property="og:url" content="www.sathhela.com" />
+  </>
+);
