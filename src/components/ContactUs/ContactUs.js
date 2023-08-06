@@ -29,11 +29,11 @@ const ContactUs = () => {
               </p>
               <span className="text-textHint">Managing Director</span>
               <div className="flex items-center gap-3 text-bgHint mb-2 mt-4">
-                <StaticImage src="../../images/phone.png" width={25} />
+                <StaticImage src="../../images/phone.png" width={20} />
                 <p>+94 77 739 9284</p>
               </div>
               <div className="flex items-center gap-3 text-bgHint">
-                <StaticImage src="../../images/email.png" width={25} />
+                <StaticImage src="../../images/email.png" width={20} />
                 <p>sathhelagarments@gmail.com</p>
               </div>
             </div>
@@ -43,11 +43,11 @@ const ContactUs = () => {
               </p>
               <span className="text-textHint">General Manager</span>
               <div className="flex items-center gap-3 text-bgHint mb-2 mt-4">
-                <StaticImage src="../../images/phone.png" width={25} />
+                <StaticImage src="../../images/phone.png" width={20} />
                 <p>+94 76 263 6255</p>
               </div>
               <div className="flex items-center gap-3 text-bgHint">
-                <StaticImage src="../../images/email.png" width={25} />
+                <StaticImage src="../../images/email.png" width={20} />
                 <p>iadasith@gmail.com</p>
               </div>
             </div>
