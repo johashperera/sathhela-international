@@ -6,6 +6,7 @@ import Services from "../components/Services/Services";
 import Details from "../components/Details/Details";
 import Products from "../components/Products/Products";
 import ContactUs from "../components/ContactUs/ContactUs";
+import Brands from "../components/Brands/Brands";
 
 const index = () => {
   return (
@@ -17,6 +18,7 @@ const index = () => {
       <Details />
       <Products />
       <ContactUs />
+      <Brands />
     </main>
   );
 };
