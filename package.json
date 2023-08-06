@@ -26,7 +26,6 @@
     "gatsby-plugin-image": "^3.11.0",
     "gatsby-plugin-manifest": "^5.11.0",
     "gatsby-plugin-postcss": "^6.11.0",
-    "gatsby-plugin-scroll-reveal": "^0.0.7",
     "gatsby-plugin-sharp": "^5.11.0",
     "gatsby-plugin-sitemap": "^6.11.0",
     "gatsby-source-filesystem": "^5.11.0",
