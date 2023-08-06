@@ -10,18 +10,8 @@ const ContactUs = () => {
           Let's have a Conversation
         </h2>
       </div>
-      <div className="grid grid-cols-2">
-        <div className=" ps-12 pe-10 py-20">
-          {/* <div>
-            <span className="text-textHint">CONTACT US</span>
-            <h2 className="text-white font-normal text-4xl ">
-              Get In <span className="font-bold">Touch</span>
-            </h2>
-            <p className="text-textHint">
-              Loream ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua.
-            </p>
-          </div> */}
+      <div className="flex mt-10 pb-8">
+        <div className=" ps-12 pe-10 pt-5 w-[45%]">
           <div>
             <div className="border-r-2 border-primary bg-[#F8F8F8] p-7 rounded-lg">
               <p className="text-secondary text-xl font-medium">
@@ -53,14 +43,8 @@ const ContactUs = () => {
             </div>
           </div>
         </div>
-        <div className="bg-white ps-10 pe-10 pt-5">
-          {/* <div>
-            <span className="text-textHint">SEND A MESSAGE</span>
-            <h2 className="text-secondary font-normal text-4xl ">
-              Let's start a <span className="font-bold">Conversation</span>
-            </h2>
-          </div> */}
-          <form className="mt-10">
+        <div className="bg-white ps-10 pe-10 pt-5 w-[55%]">
+          <form>
             <div className="flex gap-5">
               <input
                 type="text"

@@ -15,7 +15,7 @@ const Hero = () => {
           Where Fashion meets Authenticity
         </p>
         <h1
-          className="text-7xl font-medium"
+          className="text-7xl font-medium uppercase"
           data-sal="slide-up"
           data-sal-duration="500"
           data-sal-delay="500"

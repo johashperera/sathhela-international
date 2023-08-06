@@ -23,7 +23,7 @@ const Details = () => {
               <div className="flex items-center gap-3 text-white">
                 <StaticImage src="../../images/factory.png" width={50} />
                 <div>
-                  <span className="font-semibold text-3xl">2</span>
+                  <span className="font-semibold text-3xl">3</span>
                   <p>Factories</p>
                 </div>
               </div>
