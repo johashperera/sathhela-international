@@ -7,6 +7,7 @@ import Details from "../components/Details/Details";
 import Products from "../components/Products/Products";
 import ContactUs from "../components/ContactUs/ContactUs";
 import Brands from "../components/Brands/Brands";
+import Footer from "../components/Footer/Footer";
 
 const index = () => {
   return (
@@ -19,6 +20,7 @@ const index = () => {
       <Products />
       <ContactUs />
       <Brands />
+      <Footer />
     </main>
   );
 };
