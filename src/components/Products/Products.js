@@ -16,7 +16,7 @@ const Products = () => {
       selected: true,
     },
     {
-      label: "T-Shirts",
+      label: "Tee Shirts",
       value: 5,
       selected: false,
     },
