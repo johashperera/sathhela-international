@@ -14,31 +14,53 @@ const Footer = () => {
           accumsan facilisis sit amet
         </p>
         <div className="flex items-center gap-4">
-          <div className="bg-[#333c44] w-8 h-8 flex items-center justify-center p-2 rounded-full">
+          <div className="bg-[#333c44] w-8 h-8 flex items-center justify-center p-2 rounded-full hover:bg-primary transition-colors duration-300">
             <StaticImage
               src="../../images/social-white/facebook-app-symbol.png"
               width={20}
             />
           </div>
-          <div className="bg-[#333c44] w-8 h-8 flex items-center justify-center p-2 rounded-full">
+          <div className="bg-[#333c44] w-8 h-8 flex items-center justify-center p-2 rounded-full hover:bg-primary transition-colors duration-300">
             <StaticImage
               src="../../images/social-white/instagram.png"
               width={20}
             />
           </div>
-          <div className="bg-[#333c44] w-8 h-8 flex items-center justify-center p-2 rounded-full">
+          <div className="bg-[#333c44] w-8 h-8 flex items-center justify-center p-2 rounded-full hover:bg-primary transition-colors duration-300">
             <StaticImage
               src="../../images/social-white/twitter.png"
               width={20}
             />
           </div>
-          <div className="bg-[#333c44] w-8 h-8 flex items-center justify-center p-2 rounded-full">
+          <div className="bg-[#333c44] w-8 h-8 flex items-center justify-center p-2 rounded-full hover:bg-primary transition-colors duration-300">
             <StaticImage
               src="../../images/social-white/google.png"
               width={20}
             />
           </div>
         </div>
+      </div>
+      <div className="px-60">
+        <div className="grid grid-cols-3 gap-4 text-white">
+          <input
+            type="text"
+            className="bg-[#26313A] outline-none px-4 py-2"
+            placeholder="Your Name"
+          />
+          <input
+            type="text"
+            className="bg-[#26313A] outline-none px-4 py-2"
+            placeholder="Your Email"
+          />
+          <button className="bg-primary text-white py-3">Subscribe</button>
+        </div>
+      </div>
+      <div className="bg-[#1E2830] mt-10 text-center py-4">
+        <p className="text-white">
+          Copy © 2023{" "}
+          <span className="text-primary">Sathhela International</span> All
+          Rights reserved.
+        </p>
       </div>
     </section>
   );
