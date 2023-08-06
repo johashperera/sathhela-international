@@ -4,7 +4,8 @@
 module.exports = {
   siteMetadata: {
     title: `Sathhela International`,
-    siteUrl: `https://www.yourdomain.tld`,
+    siteUrl: `https://sathhela.com/`,
+    description: `Apparel Manufacturers specialised in knit Island-wide Wholesaler`,
   },
   plugins: [
     "gatsby-plugin-postcss",
