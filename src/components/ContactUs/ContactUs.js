@@ -23,30 +23,30 @@ const ContactUs = () => {
             </p>
           </div> */}
           <div>
-            <div className="border-r-2 border-primary bg-secondary p-7 rounded-lg">
-              <p className="text-white text-lg font-medium">
+            <div className="border-r-2 border-primary bg-[#F8F8F8] p-7 rounded-lg">
+              <p className="text-secondary text-xl font-medium">
                 Mr. Padmasiri Dharmaratne
               </p>
               <span className="text-textHint">Managing Director</span>
-              <div className="flex items-center gap-3 text-white my-2">
+              <div className="flex items-center gap-3 text-bgHint mb-2 mt-4">
                 <StaticImage src="../../images/phone.png" width={25} />
                 <p>+94 77 739 9284</p>
               </div>
-              <div className="flex items-center gap-3 text-white">
+              <div className="flex items-center gap-3 text-bgHint">
                 <StaticImage src="../../images/email.png" width={25} />
                 <p>sathhelagarments@gmail.com</p>
               </div>
             </div>
-            <div className="border-r-2 border-primary mt-10 bg-secondary p-7 rounded-lg">
-              <p className="text-white text-lg font-medium">
+            <div className="border-r-2 border-primary mt-10 bg-[#F8F8F8] p-7 rounded-lg">
+              <p className="text-secondary text-xl font-medium">
                 Mr. I. A. D. Udara
               </p>
               <span className="text-textHint">General Manager</span>
-              <div className="flex items-center gap-3 text-white my-2">
+              <div className="flex items-center gap-3 text-bgHint mb-2 mt-4">
                 <StaticImage src="../../images/phone.png" width={25} />
                 <p>+94 76 263 6255</p>
               </div>
-              <div className="flex items-center gap-3 text-white">
+              <div className="flex items-center gap-3 text-bgHint">
                 <StaticImage src="../../images/email.png" width={25} />
                 <p>iadasith@gmail.com</p>
               </div>
