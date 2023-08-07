@@ -69,10 +69,10 @@ const Products = () => {
 
   return (
     <section>
-      <div className="xl:px-28 2xl:px-60 py-20">
+      <div className="lg:px-14 xl:px-28 2xl:px-60 py-20">
         <div className="text-center">
           <span className="text-primary">WHAT WE CREATE</span>
-          <h2 className="text-4xl text-secondary font-semibold">
+          <h2 className="lg:text-2xl xl:text-4xl text-secondary font-semibold">
             Our Products
           </h2>
         </div>
