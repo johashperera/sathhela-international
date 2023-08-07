@@ -4,16 +4,16 @@ import React from "react";
 const Footer = () => {
   return (
     <section className="bg-bgHint pt-20">
-      <div className="lg:flex justify-between lg:gap-4 xl:gap-0 md:px-8 lg:px-14 xl:px-28 2xl:px-60 pb-20">
+      <div className="lg:flex justify-between lg:gap-4 xl:gap-0 px-7 md:px-8 lg:px-14 xl:px-28 2xl:px-60 pb-20">
         <span className="md:text-2xl xl:text-3xl font-bold text-white">
           Sathhela International
         </span>
-        <p className="w-1/2 text-textHint">
+        <p className="md:w-1/2 text-textHint">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam ut tortor
           efficitur, vehicula leo quis, viverra tellus. Ut augue turpis, cursus
           accumsan facilisis sit amet
         </p>
-        <div className="flex items-center gap-4 md:mt-6 lg:mt-0">
+        <div className="flex items-center gap-4 mt-7 md:mt-6 lg:mt-0">
           <div className="bg-[#333c44] w-8 h-8 flex items-center justify-center p-2 rounded-full hover:bg-primary transition-colors duration-300">
             <StaticImage
               src="../../images/social-white/facebook-app-symbol.png"
@@ -40,8 +40,8 @@ const Footer = () => {
           </div>
         </div>
       </div>
-      <div className="md:px-8 lg:px-14 xl:px-28 2xl:px-60">
-        <div className="grid grid-cols-3 gap-4 text-white">
+      <div className="px-7 md:px-8 lg:px-14 xl:px-28 2xl:px-60">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-4 text-white">
           <input
             type="text"
             className="bg-[#26313A] outline-none px-4 py-2"
@@ -56,7 +56,7 @@ const Footer = () => {
         </div>
       </div>
       <div className="bg-[#1E2830] mt-10 text-center py-4">
-        <p className="text-white">
+        <p className="text-white text-xs md:text-base">
           Copy © 2023{" "}
           <span className="text-primary">Sathhela International</span> All
           Rights reserved.

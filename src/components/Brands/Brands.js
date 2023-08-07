@@ -3,8 +3,8 @@ import React from "react";
 
 const Brands = () => {
   return (
-    <section className="bg-[#F8F8F8]">
-      <div className="flex justify-center items-center gap-16 py-8">
+    <section className="bg-[#F8F8F8] flex justify-center md:block">
+      <div className="grid grid-cols-2 gap-5 md:flex md:justify-center md:items-center md:gap-16 py-8">
         <div>
           <StaticImage src="../../images/Brands/1.png" width={150} />
         </div>

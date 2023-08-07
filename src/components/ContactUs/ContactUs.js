@@ -3,15 +3,15 @@ import React from "react";
 
 const ContactUs = () => {
   return (
-    <section className="pb-20 md:px-8 lg:px-14 xl:px-28 2xl:px-60">
+    <section className="pb-20 px-7 md:px-8 lg:px-14 xl:px-28 2xl:px-60">
       <div className="text-center">
         <span className="text-primary ">Like what you saw?</span>
-        <h2 className="text-secondary md:text-2xl xl:text-4xl font-bold">
+        <h2 className="text-secondary text-xl md:text-2xl xl:text-4xl font-bold">
           Let's have a Conversation
         </h2>
       </div>
-      <div className="flex md:flex-col xl:flex-row mt-10 pb-8">
-        <div className="xl:ps-12 pe-10 pt-5 md:w-full lg:w-[45%] md:order-2 lg:order-1">
+      <div className="flex flex-col md:flex-col xl:flex-row mt-10 pb-8">
+        <div className=" xl:ps-12 md:pe-10 pt-5 md:w-full lg:w-[45%] order-2 md:order-2 lg:order-1">
           <div>
             <div className="border-r-2 border-primary bg-[#F8F8F8] p-7 rounded-lg">
               <p className="text-secondary text-xl font-medium">
@@ -27,7 +27,7 @@ const ContactUs = () => {
                 <p>sathhelagarments@gmail.com</p>
               </div>
             </div>
-            <div className="border-r-2 border-primary md:mt-5 lg:mt-10 bg-[#F8F8F8] p-7 rounded-lg">
+            <div className="border-r-2 border-primary mt-7 md:mt-5 lg:mt-10 bg-[#F8F8F8] p-7 rounded-lg">
               <p className="text-secondary text-xl font-medium">
                 Mr. I. A. D. Udara
               </p>
@@ -43,30 +43,30 @@ const ContactUs = () => {
             </div>
           </div>
         </div>
-        <div className="bg-white xl:ps-10 xl:pe-10 pt-5 md:w-full lg:w-[55%] md:order-1 lg:order-2">
+        <div className="bg-white order-1 xl:ps-10 xl:pe-10 md:pt-5 md:w-full lg:w-[55%] md:order-1 lg:order-2">
           <form>
-            <div className="flex gap-5">
+            <div className="flex flex-col md:flex-row gap-5">
               <input
                 type="text"
                 placeholder="Your Name"
-                className="p-3 w-1/2 border-0 bg-[#F8F8F8] text-sm outline-none"
+                className="p-3 w-full md:w-1/2 border-0 bg-[#F8F8F8] text-sm outline-none"
               />
               <input
                 type="email"
                 placeholder="Email Address"
-                className="p-3 border-0 bg-[#F8F8F8] w-1/2 text-sm outline-none"
+                className="p-3 border-0 bg-[#F8F8F8] w-full md:w-1/2 text-sm outline-none"
               />
             </div>
-            <div className="flex gap-5 mt-5">
+            <div className="flex flex-col md:flex-row gap-5 mt-5">
               <input
                 type="number"
                 placeholder="Contact Number"
-                className="p-3 border-0 bg-[#F8F8F8] w-1/2 text-sm outline-none"
+                className="p-3 border-0 bg-[#F8F8F8] w-full md:w-1/2 text-sm outline-none"
               />
               <input
                 type="text"
                 placeholder="Subject"
-                className="p-3 border-0 bg-[#F8F8F8] w-1/2 text-sm outline-none"
+                className="p-3 border-0 bg-[#F8F8F8] w-full md:w-1/2 text-sm outline-none"
               />
             </div>
             <div className="mt-5 mb-5">
@@ -76,7 +76,9 @@ const ContactUs = () => {
                 placeholder="Message"
               ></textarea>
             </div>
-            <button className="bg-primary px-16 py-2 text-white">Submit</button>
+            <button className="bg-primary px-16 py-2 w-full md:w-auto text-white">
+              Submit
+            </button>
           </form>
         </div>
       </div>

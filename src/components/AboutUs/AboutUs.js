@@ -4,8 +4,8 @@ import React from "react";
 const AboutUs = () => {
   return (
     <section className="bg-secondary">
-      <div className="md:flex gap-16 md:px-8 lg:px-14 xl:px-28 2xl:px-60 py-20">
-        <div>
+      <div className="flex flex-col md:flex-row md:flex gap-6 md:gap-16 px-7 md:px-8 lg:px-14 xl:px-28 2xl:px-60 py-20">
+        <div className="w-1/2 md:w-auto">
           <StaticImage
             src="../../images/pexels-los-muertos-crew-7998333.jpg"
             width={600}
@@ -13,10 +13,10 @@ const AboutUs = () => {
         </div>
         <div>
           <span className="text-textHint">WHO WE ARE</span>
-          <h2 className="md:text-2xl xl:text-4xl text-white">
+          <h2 className="text-xl md:text-2xl xl:text-4xl text-white">
             An Ultimate Textile Company
           </h2>
-          <span className="md:text-2xl xl:text-4xl font-bold text-white">
+          <span className="text-xl md:text-2xl xl:text-4xl font-bold text-white">
             In the Market Since 2008
           </span>
           <p className="text-textHint mt-10">
@@ -25,7 +25,7 @@ const AboutUs = () => {
             varius nulla in bibendum. Quisque ut vehicula lacus. Vivamus vel
             libero est. Mauris pulvinar ipsum nec enim laoreet
           </p>
-          <div className="grid grid-cols-2 gap-2 mt-8">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-2 mt-8">
             <div className="flex items-center gap-2 text-white">
               <StaticImage src="../../images/check-mark.png" width={25} />
               <p>Lorem ipsum dolor sit</p>

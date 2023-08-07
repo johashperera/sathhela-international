@@ -45,7 +45,7 @@ const Header = () => {
         </div>
       </div>
       <div className="sticky top-0 z-50">
-        <div className="flex items-center justify-between md:px-8 lg:px-14 xl:px-28 2xl:px-52 py-6 bg-[#F6F6F6] ">
+        <div className="flex items-center justify-between px-7 md:px-8 lg:px-14 xl:px-28 2xl:px-52 py-6 bg-[#F6F6F6] ">
           <div>
             <span className="md:text-lg lg:text-xl xl:text-2xl font-medium text-secondary">
               Sathhela International{" "}
@@ -88,7 +88,7 @@ const Header = () => {
               direction="right"
               size={300}
             >
-              <div className="md:p-5 bg-secondary h-full flex flex-col justify-between text-white">
+              <div className="p-4 md:p-5 bg-secondary h-full flex flex-col justify-between text-white">
                 <ul className="flex flex-col gap-4">
                   <li className="bg-bgHint py-2 px-2 rounded-lg">
                     <Link className="flex items-center gap-3">
