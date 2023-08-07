@@ -21,8 +21,7 @@ const Hero = () => {
           <StaticImage src="../../images/fabric.png" width={50} />
           <span className="text-lg font-medium mt-5">We Design Fabric</span>
           <p className="text-textHint">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et
-            metus vel odio pellentesque pellentesque
+            We create beautiful fabrics that inspire your world.
           </p>
         </div>
         <div className="text-center flex flex-col items-center shadow-md px-8 py-10">
@@ -30,10 +29,7 @@ const Hero = () => {
           <span className="text-lg font-medium mt-5">
             We have the Good Stuff
           </span>
-          <p className="text-textHint">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et
-            metus vel odio pellentesque pellentesque
-          </p>
+          <p className="text-textHint">Authenticity in every stitch, always.</p>
         </div>
         <div className="text-center flex flex-col items-center shadow-md px-8 py-10">
           <StaticImage src="../../images/export.png" width={50} />

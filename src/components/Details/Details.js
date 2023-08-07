@@ -15,10 +15,16 @@ const Details = () => {
               Clothes that make You Stand Out
             </span>
             <p className="text-textHint mt-8">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam ut
-              eros sagittis, aliquet nibh vel, rutrum nisi. Orci varius natoque
-              penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-              Nam vulputate ipsum augue
+              Step into a world where fashion meets individuality. Our garments
+              are more than just clothes; they are a statement of
+              self-expression. With meticulous craftsmanship and attention to
+              detail, each piece is designed to make you stand out with
+              confidence and style. Embrace your uniqueness and let our
+              collections be the canvas for your personality. Whether it's
+              classic elegance or contemporary flair, we cater to every taste,
+              ensuring that you shine wherever you go. Elevate your fashion game
+              and make a lasting impression with our garments that celebrate
+              your distinctiveness.
             </p>
             <hr className="my-7" />
             <div className="grid grid-cols-2 gap-4 md:gap-0 md:grid-cols-3">

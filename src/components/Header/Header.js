@@ -47,24 +47,24 @@ const Header = () => {
       <div className="sticky top-0 z-50">
         <div className="flex items-center justify-between px-7 md:px-8 lg:px-14 xl:px-28 2xl:px-52 py-6 bg-[#F6F6F6] ">
           <div>
-            <span className="md:text-lg lg:text-xl xl:text-2xl font-medium text-secondary">
+            <span className="uppercase md:text-lg lg:text-xl xl:text-2xl font-medium text-secondary">
               Sathhela International{" "}
             </span>
           </div>
           <ul className="hidden lg:flex items-center uppercase gap-7 lg:text-xs xl:text-sm">
-            <li>
+            <li className="cursor-pointer">
               <Link>Home</Link>
             </li>
-            <li>
+            <li className="cursor-pointer">
               <Link>About Us</Link>
             </li>
-            <li>
+            <li className="cursor-pointer">
               <Link>Services</Link>
             </li>
-            <li>
+            <li className="cursor-pointer">
               <Link>Products</Link>
             </li>
-            <li>
+            <li className="cursor-pointer">
               <Link>Contact Us</Link>
             </li>
           </ul>

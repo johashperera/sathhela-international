@@ -20,10 +20,14 @@ const AboutUs = () => {
             In the Market Since 2008
           </span>
           <p className="text-textHint mt-10">
-            Morbi maximus posuere velit vitae aliquam. Nulla dictum viverra leo,
-            et mattis ipsum dapibus quis. Sed ut suscipit elit. Donec pretium
-            varius nulla in bibendum. Quisque ut vehicula lacus. Vivamus vel
-            libero est. Mauris pulvinar ipsum nec enim laoreet
+            Welcome to our ultimate textile company, where creativity and
+            craftsmanship blend to offer exceptional fabrics. Our collection
+            caters to diverse tastes and needs, from luxurious to durable
+            textiles. With innovation and eco-consciousness, we take pride in
+            surpassing industry standards. Our personalized service ensures
+            finding the perfect fabric for your vision. Embracing sustainability
+            and ethical practices, we weave a brighter, beautiful future with
+            timeless elegance and versatility in our textiles.
           </p>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-2 mt-8">
             <div className="flex items-center gap-2 text-white">

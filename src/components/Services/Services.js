@@ -16,11 +16,11 @@ const Services = () => {
           <div className="text-left flex flex-col items-start shadow-lg p-5 rounded-lg">
             <StaticImage src="../../images/garments.png" width={60} />
             <span className="md:text-lg font-semibold mt-4">
-              Customized product of Undergarments & T-shirts
+              Customized production of Undergarments & Tee Shirts
             </span>
             <p className="text-textHint">
-              Duis sollicitudin maximus mi sit amet posuere. Fusce viverra
-              libero ut orci dapibus viverra
+              Tailored to perfection, your comfort, your style - Custom
+              undergarments and tees, made just for you.
             </p>
           </div>
           <div className="text-left flex flex-col items-start shadow-lg p-5 rounded-lg">
@@ -29,28 +29,28 @@ const Services = () => {
               Factory Outlet
             </span>
             <p className="text-textHint">
-              Duis sollicitudin maximus mi sit amet posuere. Fusce viverra
-              libero ut orci dapibus viverra
+              Discover unbeatable deals and factory-fresh finds at our outlet -
+              Where quality meets affordability.
             </p>
           </div>
           <div className="text-left flex flex-col items-start shadow-lg p-5 rounded-lg">
             <StaticImage src="../../images/import.png" width={60} />
             <span className="md:text-lg font-semibold mt-4">
-              Importing Cotton, Lycra & Polycotton Fabrics
+              Importing Cotton, Lycra, Polycotton, Wetlook & Pique Fabrics
             </span>
             <p className="text-textHint">
-              Duis sollicitudin maximus mi sit amet posuere. Fusce viverra
-              libero ut orci dapibus viverra
+              Unleash the world of possibilities - Elevate your creations with
+              our curated fabrics from across the globe.
             </p>
           </div>
           <div className="text-left flex flex-col items-start shadow-lg p-5 rounded-lg">
             <StaticImage src="../../images/online-store.png" width={60} />
             <span className="md:text-lg font-semibold mt-4">
-              Online Clothing Store on Social Meida
+              Online Clothing Store on Social Media
             </span>
             <p className="text-textHint">
-              Duis sollicitudin maximus mi sit amet posuere. Fusce viverra
-              libero ut orci dapibus viverra
+              Step into style with a click - Explore our online clothing store
+              on social media, where fashion meets convenience.
             </p>
           </div>
         </div>
