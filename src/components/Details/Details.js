@@ -4,8 +4,8 @@ import React from "react";
 const Details = () => {
   return (
     <section className="bg-bgHint w-full relative">
-      <div className="px-60 py-20">
-        <div className="grid grid-cols-2">
+      <div className="2xl:px-60 py-20">
+        <div className="grid xl:grid-cols-2">
           <div>
             <span className="text-textHint font-medium">WELL CRAFTED</span>
             <h2 className="text-4xl text-white">We Provide Garments</h2>

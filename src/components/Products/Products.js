@@ -69,7 +69,7 @@ const Products = () => {
 
   return (
     <section>
-      <div className="px-60 py-20">
+      <div className="2xl:px-60 py-20">
         <div className="text-center">
           <span className="text-primary">WHAT WE CREATE</span>
           <h2 className="text-4xl text-secondary font-semibold">

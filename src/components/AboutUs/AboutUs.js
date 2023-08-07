@@ -4,7 +4,7 @@ import React from "react";
 const AboutUs = () => {
   return (
     <section className="bg-secondary">
-      <div className="flex gap-16 px-60 py-20">
+      <div className="2xl:flex gap-16 2xl:px-60 py-20">
         <div>
           <StaticImage
             src="../../images/pexels-los-muertos-crew-7998333.jpg"

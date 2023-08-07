@@ -3,14 +3,14 @@ import React from "react";
 
 const ContactUs = () => {
   return (
-    <section className="pb-20 px-60">
+    <section className="pb-20 2xl:px-60">
       <div className="text-center">
         <span className="text-primary ">Like what you saw?</span>
-        <h2 className="text-secondary text-4xl font-bold">
+        <h2 className="text-secondary xl:text-4xl font-bold">
           Let's have a Conversation
         </h2>
       </div>
-      <div className="flex mt-10 pb-8">
+      <div className="flex xl:flex-row mt-10 pb-8">
         <div className=" ps-12 pe-10 pt-5 w-[45%]">
           <div>
             <div className="border-r-2 border-primary bg-[#F8F8F8] p-7 rounded-lg">
