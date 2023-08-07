@@ -3,15 +3,15 @@ import React from "react";
 
 const ContactUs = () => {
   return (
-    <section className="pb-20 lg:px-14 xl:px-28 2xl:px-60">
+    <section className="pb-20 md:px-8 lg:px-14 xl:px-28 2xl:px-60">
       <div className="text-center">
         <span className="text-primary ">Like what you saw?</span>
-        <h2 className="text-secondary xl:text-4xl font-bold">
+        <h2 className="text-secondary md:text-2xl xl:text-4xl font-bold">
           Let's have a Conversation
         </h2>
       </div>
-      <div className="flex xl:flex-row mt-10 pb-8">
-        <div className="xl:ps-12 pe-10 pt-5 w-[45%]">
+      <div className="flex md:flex-col xl:flex-row mt-10 pb-8">
+        <div className="xl:ps-12 pe-10 pt-5 md:w-full lg:w-[45%] md:order-2 lg:order-1">
           <div>
             <div className="border-r-2 border-primary bg-[#F8F8F8] p-7 rounded-lg">
               <p className="text-secondary text-xl font-medium">
@@ -27,7 +27,7 @@ const ContactUs = () => {
                 <p>sathhelagarments@gmail.com</p>
               </div>
             </div>
-            <div className="border-r-2 border-primary mt-10 bg-[#F8F8F8] p-7 rounded-lg">
+            <div className="border-r-2 border-primary md:mt-5 lg:mt-10 bg-[#F8F8F8] p-7 rounded-lg">
               <p className="text-secondary text-xl font-medium">
                 Mr. I. A. D. Udara
               </p>
@@ -43,7 +43,7 @@ const ContactUs = () => {
             </div>
           </div>
         </div>
-        <div className="bg-white xl:ps-10 xl:pe-10 pt-5 w-[55%]">
+        <div className="bg-white xl:ps-10 xl:pe-10 pt-5 md:w-full lg:w-[55%] md:order-1 lg:order-2">
           <form>
             <div className="flex gap-5">
               <input

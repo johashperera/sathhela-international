@@ -4,14 +4,14 @@ import React from "react";
 const Details = () => {
   return (
     <section className="bg-bgHint w-full relative">
-      <div className="lg:px-14 xl:px-28 2xl:px-60 py-20">
+      <div className="md:px-8 lg:px-14 xl:px-28 2xl:px-60 py-20">
         <div className="grid xl:grid-cols-2">
           <div>
             <span className="text-textHint font-medium">WELL CRAFTED</span>
-            <h2 className="lg:text-2xl xl:text-4xl text-white">
+            <h2 className="md:text-2xl xl:text-4xl text-white">
               We Provide Garments
             </h2>
-            <span className="lg:text-2xl  xl:text-4xl font-semibold text-white">
+            <span className="md:text-2xl  xl:text-4xl font-semibold text-white">
               Clothes that make You Stand Out
             </span>
             <p className="text-textHint mt-8">

@@ -47,7 +47,7 @@ const Header = () => {
       <div className="sticky top-0 z-50">
         <div className="flex items-center justify-between md:px-8 lg:px-14 xl:px-28 2xl:px-52 py-6 bg-[#F6F6F6] ">
           <div>
-            <span className="lg:text-xl xl:text-2xl font-medium text-secondary">
+            <span className="md:text-lg lg:text-xl xl:text-2xl font-medium text-secondary">
               Sathhela International{" "}
             </span>
           </div>

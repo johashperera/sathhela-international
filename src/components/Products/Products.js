@@ -69,23 +69,23 @@ const Products = () => {
 
   return (
     <section>
-      <div className="lg:px-14 xl:px-28 2xl:px-60 py-20">
+      <div className="md:px-8 lg:px-14 xl:px-28 2xl:px-60 py-20">
         <div className="text-center">
           <span className="text-primary">WHAT WE CREATE</span>
-          <h2 className="lg:text-2xl xl:text-4xl text-secondary font-semibold">
+          <h2 className="md:text-2xl xl:text-4xl text-secondary font-semibold">
             Our Products
           </h2>
         </div>
         <div className="flex flex-col items-center mt-6">
-          <div className="flex items-center gap-7 h-16">
+          <div className="flex items-center md:gap-4 lg:gap-7 h-16">
             {categories.map((category) => {
               return (
                 <button
                   key={category.value}
                   className={
                     category.selected
-                      ? "bg-primary px-5 py-2 rounded text-white transition-all text-lg"
-                      : "bg-transparent transition-all"
+                      ? "bg-primary px-5 py-2 rounded text-white transition-all md:text-sm lg:text-lg"
+                      : "bg-transparent transition-all md:text-sm lg:text-lg"
                   }
                   onClick={() => onClick(category.value)}
                 >

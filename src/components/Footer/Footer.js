@@ -4,8 +4,8 @@ import React from "react";
 const Footer = () => {
   return (
     <section className="bg-bgHint pt-20">
-      <div className="flex justify-between lg:gap-4 xl:gap-0 lg:px-14 xl:px-28 2xl:px-60 pb-20">
-        <span className="lg:text-2xl xl:text-3xl font-bold text-white">
+      <div className="lg:flex justify-between lg:gap-4 xl:gap-0 md:px-8 lg:px-14 xl:px-28 2xl:px-60 pb-20">
+        <span className="md:text-2xl xl:text-3xl font-bold text-white">
           Sathhela International
         </span>
         <p className="w-1/2 text-textHint">
@@ -13,7 +13,7 @@ const Footer = () => {
           efficitur, vehicula leo quis, viverra tellus. Ut augue turpis, cursus
           accumsan facilisis sit amet
         </p>
-        <div className="flex items-center gap-4">
+        <div className="flex items-center gap-4 md:mt-6 lg:mt-0">
           <div className="bg-[#333c44] w-8 h-8 flex items-center justify-center p-2 rounded-full hover:bg-primary transition-colors duration-300">
             <StaticImage
               src="../../images/social-white/facebook-app-symbol.png"
@@ -40,7 +40,7 @@ const Footer = () => {
           </div>
         </div>
       </div>
-      <div className="lg:px-14 xl:px-28 2xl:px-60">
+      <div className="md:px-8 lg:px-14 xl:px-28 2xl:px-60">
         <div className="grid grid-cols-3 gap-4 text-white">
           <input
             type="text"

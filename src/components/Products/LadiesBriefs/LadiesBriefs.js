@@ -3,7 +3,7 @@ import React from "react";
 
 const LadiesBriefs = () => {
   return (
-    <div className="grid lg:grid-cols-4 xl:grid-cols-5 gap-5">
+    <div className="grid md:grid-cols-4 xl:grid-cols-5 gap-5">
       <div>
         <StaticImage src="../../../images/Briefs/1.jpg" width={230} />
       </div>

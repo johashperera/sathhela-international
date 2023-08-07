@@ -4,7 +4,7 @@ import React from "react";
 const AboutUs = () => {
   return (
     <section className="bg-secondary">
-      <div className="lg:flex gap-16 lg:px-14 xl:px-28 2xl:px-60 py-20">
+      <div className="md:flex gap-16 md:px-8 lg:px-14 xl:px-28 2xl:px-60 py-20">
         <div>
           <StaticImage
             src="../../images/pexels-los-muertos-crew-7998333.jpg"
@@ -13,10 +13,10 @@ const AboutUs = () => {
         </div>
         <div>
           <span className="text-textHint">WHO WE ARE</span>
-          <h2 className="lg:text-2xl xl:text-4xl text-white">
+          <h2 className="md:text-2xl xl:text-4xl text-white">
             An Ultimate Textile Company
           </h2>
-          <span className="lg:text-2xl text-4xl font-bold text-white">
+          <span className="md:text-2xl xl:text-4xl font-bold text-white">
             In the Market Since 2008
           </span>
           <p className="text-textHint mt-10">

@@ -4,15 +4,15 @@ import React from "react";
 const Services = () => {
   return (
     <section className="bg-[#F8F8F8]">
-      <div className="lg:px-14 xl:px-28 2xl:px-60 py-20">
+      <div className="md:px-8 lg:px-14 xl:px-28 2xl:px-60 py-20">
         <div className="text-center">
           <span className="text-primary font-medium">OUR SERVICES</span>
-          <h2 className="lg:text-2xl xl:text-4xl text-secondary mt-3">
+          <h2 className="md:text-2xl xl:text-4xl text-secondary mt-3">
             We Take Pride in Offering a <br />
             <span className="font-bold">Diverse Range of Services</span>
           </h2>
         </div>
-        <div className="grid lg:grid-cols-2 xl:grid-cols-4 gap-8 mt-12">
+        <div className="grid md:grid-cols-2 xl:grid-cols-4 gap-8 mt-12">
           <div className="text-left flex flex-col items-start shadow-lg p-5 rounded-lg">
             <StaticImage src="../../images/garments.png" width={60} />
             <span className="text-lg font-semibold mt-4">
