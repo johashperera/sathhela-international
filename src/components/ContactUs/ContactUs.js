@@ -3,7 +3,7 @@ import React from "react";
 
 const ContactUs = () => {
   return (
-    <section className="pb-20 2xl:px-60">
+    <section className="pb-20 xl:px-28 2xl:px-60">
       <div className="text-center">
         <span className="text-primary ">Like what you saw?</span>
         <h2 className="text-secondary xl:text-4xl font-bold">

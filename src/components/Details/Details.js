@@ -4,7 +4,7 @@ import React from "react";
 const Details = () => {
   return (
     <section className="bg-bgHint w-full relative">
-      <div className="2xl:px-60 py-20">
+      <div className="xl:px-28 2xl:px-60 py-20">
         <div className="grid xl:grid-cols-2">
           <div>
             <span className="text-textHint font-medium">WELL CRAFTED</span>
@@ -45,7 +45,7 @@ const Details = () => {
           </div>
         </div>
       </div>
-      <div className="bg-white absolute p-5 w-fit right-0 -bottom-5 shadow-xl">
+      <div className="bg-white absolute p-5 w-fit xl:left-[60%] 2xl:right-0 -bottom-5 shadow-xl">
         <StaticImage src="../../images/machinery.webp" width={600} />
       </div>
     </section>

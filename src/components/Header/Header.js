@@ -12,8 +12,8 @@ import { Link } from "gatsby";
 const Header = () => {
   return (
     <>
-      <div className="bg-secondary flex items-center justify-between 2xl:px-52">
-        <div className="2xl:flex items-center divide-x-2">
+      <div className="bg-secondary flex items-center justify-between xl:px-28 2xl:px-52">
+        <div className="xl:flex items-center divide-x-2">
           <div className="flex items-center gap-2 px-6 py-4 ">
             <FontAwesomeIcon icon={faEnvelope} color="#C3002F" />
             <p className="text-white text-base">info@sathhela.lk</p>
@@ -32,7 +32,7 @@ const Header = () => {
         </div>
       </div>
       <div className="sticky top-0 z-50">
-        <div className="flex items-center justify-between 2xl:px-52 py-6 bg-[#F6F6F6] ">
+        <div className="flex items-center justify-between xl:px-28 2xl:px-52 py-6 bg-[#F6F6F6] ">
           <div>
             <span className="text-2xl font-medium text-secondary">
               Sathhela International{" "}

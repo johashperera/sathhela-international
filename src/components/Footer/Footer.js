@@ -4,7 +4,7 @@ import React from "react";
 const Footer = () => {
   return (
     <section className="bg-bgHint pt-20">
-      <div className="flex justify-between px-60 pb-20">
+      <div className="flex justify-between xl:px-28 2xl:px-60 pb-20">
         <span className="text-3xl font-bold text-white">
           Sathhela International
         </span>
@@ -40,7 +40,7 @@ const Footer = () => {
           </div>
         </div>
       </div>
-      <div className="px-60">
+      <div className="xl:px-28 2xl:px-60">
         <div className="grid grid-cols-3 gap-4 text-white">
           <input
             type="text"
