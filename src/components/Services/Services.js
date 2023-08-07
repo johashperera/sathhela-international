@@ -1,9 +1,23 @@
 import { StaticImage } from "gatsby-plugin-image";
-import React from "react";
+import React, { forwardRef } from "react";
 
-const Services = () => {
+const Services = forwardRef((props, ref) => {
+  const openInMaps = () => {
+    window.open(
+      "https://www.google.com/maps/dir//sathhela+international/@6.8369612,79.8800335,13z/data=!4m8!4m7!1m0!1m5!1m1!1s0x3ae24552a47d17e7:0xe0ade19bb671bde6!2m2!1d79.9171283!2d6.8056441?entry=ttu",
+      "_blank"
+    );
+  };
+
+  const redirectToFacebook = () => {
+    window.open(
+      "https://www.facebook.com/profile.php?id=100093374664373&mibextid=LQQJ4d",
+      "_blank"
+    );
+  };
+
   return (
-    <section className="bg-[#F8F8F8]">
+    <section ref={ref} className="bg-[#F8F8F8]">
       <div className="px-7 md:px-8 lg:px-14 xl:px-28 2xl:px-60 py-20">
         <div className="text-center">
           <span className="text-primary font-medium">OUR SERVICES</span>
@@ -23,7 +37,10 @@ const Services = () => {
               undergarments and tees, made just for you.
             </p>
           </div>
-          <div className="text-left flex flex-col items-start shadow-lg p-5 rounded-lg">
+          <div
+            className="text-left flex flex-col items-start shadow-lg p-5 rounded-lg cursor-pointer hover:border-b-4 border-primary transition-all"
+            onClick={openInMaps}
+          >
             <StaticImage src="../../images/outlet.png" width={60} />
             <span className="md:text-lg font-semibold mt-4">
               Factory Outlet
@@ -43,7 +60,10 @@ const Services = () => {
               our curated fabrics from across the globe.
             </p>
           </div>
-          <div className="text-left flex flex-col items-start shadow-lg p-5 rounded-lg">
+          <div
+            className="text-left flex flex-col items-start shadow-lg p-5 rounded-lg cursor-pointer hover:border-b-4 border-primary transition-all"
+            onClick={redirectToFacebook}
+          >
             <StaticImage src="../../images/online-store.png" width={60} />
             <span className="md:text-lg font-semibold mt-4">
               Online Clothing Store on Social Media
@@ -57,6 +77,6 @@ const Services = () => {
       </div>
     </section>
   );
-};
+});
 
 export default Services;

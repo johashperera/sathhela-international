@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useRef } from "react";
 import Header from "../components/Header/Header";
 import Hero from "../components/Hero/Hero";
 import AboutUs from "../components/AboutUs/AboutUs";
@@ -10,23 +10,56 @@ import Brands from "../components/Brands/Brands";
 import Footer from "../components/Footer/Footer";
 import Image from "../images/og-image.png";
 
-const index = () => {
+const HomePage = () => {
+  const heroRef = useRef(null);
+  const aboutUsRef = useRef(null);
+  const servicesRef = useRef(null);
+  const productsRef = useRef(null);
+  const contactUsRef = useRef(null);
+
+  const scrollToHero = () => {
+    heroRef.current.scrollIntoView({ behavior: "smooth" });
+  };
+
+  const scrollToAboutUs = () => {
+    console.log("logged....");
+    aboutUsRef.current.scrollIntoView({ behavior: "smooth" });
+  };
+
+  const scrollToServices = () => {
+    servicesRef.current.scrollIntoView({ behavior: "smooth" });
+  };
+
+  const scrollToProducts = () => {
+    productsRef.current.scrollIntoView({ behavior: "smooth" });
+  };
+
+  const scrollToContactUs = () => {
+    contactUsRef.current.scrollIntoView({ behavior: "smooth" });
+  };
+
   return (
     <main>
-      <Header />
-      <Hero />
-      <AboutUs />
-      <Services />
+      <Header
+        scrollToHero={scrollToHero}
+        scrollToAboutUs={scrollToAboutUs}
+        scrollToServices={scrollToServices}
+        scrollToProducts={scrollToProducts}
+        scrollToContactUs={scrollToContactUs}
+      />
+      <Hero ref={heroRef} />
+      <AboutUs ref={aboutUsRef} />
+      <Services ref={servicesRef} />
       <Details />
-      <Products />
-      <ContactUs />
+      <Products ref={productsRef} />
+      <ContactUs ref={contactUsRef} />
       <Brands />
       <Footer />
     </main>
   );
 };
 
-export default index;
+export default HomePage;
 
 export const Head = () => (
   <>

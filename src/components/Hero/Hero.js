@@ -1,9 +1,9 @@
-import React from "react";
+import React, { forwardRef } from "react";
 import { StaticImage } from "gatsby-plugin-image";
 
-const Hero = () => {
+const Hero = forwardRef((props, ref) => {
   return (
-    <section className="py-10 md:py-14 lg:py-20 xl:py-32">
+    <section ref={ref} className="py-10 md:py-14 lg:py-20 xl:py-32">
       <div className="text-center flex flex-col gap-4 items-center">
         <p className="text-primary">Where Fashion meets Authenticity</p>
         <h1 className="text-2xl md:text-3xl lg:text-5xl xl:text-7xl font-medium uppercase">
@@ -42,6 +42,6 @@ const Hero = () => {
       </div>
     </section>
   );
-};
+});
 
 export default Hero;

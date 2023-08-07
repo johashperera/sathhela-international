@@ -1,9 +1,24 @@
 import { StaticImage } from "gatsby-plugin-image";
-import React from "react";
+import React, { forwardRef } from "react";
 
-const ContactUs = () => {
+const ContactUs = forwardRef((props, ref) => {
+  const handleCallMd = () => {
+    const phoneNumber = "+94777399284"; // Replace with the actual phone number
+    const telUri = `tel:${phoneNumber}`;
+    window.location.href = telUri;
+  };
+
+  const handleCallGm = () => {
+    const phoneNumber = "+94762636255"; // Replace with the actual phone number
+    const telUri = `tel:${phoneNumber}`;
+    window.location.href = telUri;
+  };
+
   return (
-    <section className="pb-20 px-7 md:px-8 lg:px-14 xl:px-28 2xl:px-60">
+    <section
+      ref={ref}
+      className="pb-20 px-7 md:px-8 lg:px-14 xl:px-28 2xl:px-60"
+    >
       <div className="text-center">
         <span className="text-primary ">Like what you saw?</span>
         <h2 className="text-secondary text-xl md:text-2xl xl:text-4xl font-bold">
@@ -18,7 +33,10 @@ const ContactUs = () => {
                 Mr. Padmasiri Dharmaratne
               </p>
               <span className="text-textHint">Managing Director</span>
-              <div className="flex items-center gap-3 text-bgHint mb-2 mt-4">
+              <div
+                className="flex items-center gap-3 text-bgHint mb-2 mt-4 cursor-pointer"
+                onClick={handleCallMd}
+              >
                 <StaticImage src="../../images/phone.png" width={20} />
                 <p>+94 77 739 9284</p>
               </div>
@@ -32,7 +50,10 @@ const ContactUs = () => {
                 Mr. I. A. D. Udara
               </p>
               <span className="text-textHint">General Manager</span>
-              <div className="flex items-center gap-3 text-bgHint mb-2 mt-4">
+              <div
+                className="flex items-center gap-3 text-bgHint mb-2 mt-4 cursor-pointer"
+                onClick={handleCallGm}
+              >
                 <StaticImage src="../../images/phone.png" width={20} />
                 <p>+94 76 263 6255</p>
               </div>
@@ -84,6 +105,6 @@ const ContactUs = () => {
       </div>
     </section>
   );
-};
+});
 
 export default ContactUs;

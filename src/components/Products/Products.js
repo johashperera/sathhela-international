@@ -1,10 +1,10 @@
-import React, { useState } from "react";
+import React, { forwardRef, useState } from "react";
 import LadiesBriefs from "./LadiesBriefs/LadiesBriefs";
 import Leggings from "./Leggings/Leggings";
 import TShirts from "./TShirts/TShirts";
 import Select from "react-select";
 
-const Products = () => {
+const Products = forwardRef((props, ref) => {
   const initialCategories = [
     {
       label: "Ladies Briefs",
@@ -89,7 +89,7 @@ const Products = () => {
   };
 
   return (
-    <section>
+    <section ref={ref}>
       <div className="px-7 md:px-8 lg:px-14 xl:px-28 2xl:px-60 py-20">
         <div className="text-center">
           <span className="text-primary">WHAT WE CREATE</span>
@@ -127,6 +127,6 @@ const Products = () => {
       </div>
     </section>
   );
-};
+});
 
 export default Products;

@@ -1,9 +1,9 @@
 import { StaticImage } from "gatsby-plugin-image";
-import React from "react";
+import React, { forwardRef } from "react";
 
-const AboutUs = () => {
+const AboutUs = forwardRef((props, ref) => {
   return (
-    <section className="bg-secondary">
+    <section ref={ref} className="bg-secondary">
       <div className="flex flex-col md:flex-row md:flex gap-6 md:gap-16 px-7 md:px-8 lg:px-14 xl:px-28 2xl:px-60 py-20">
         <div className="w-1/2 md:w-auto">
           <StaticImage
@@ -59,6 +59,6 @@ const AboutUs = () => {
       </div>
     </section>
   );
-};
+});
 
 export default AboutUs;

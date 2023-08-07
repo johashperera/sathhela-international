@@ -2,6 +2,21 @@ import { StaticImage } from "gatsby-plugin-image";
 import React from "react";
 
 const Footer = () => {
+  const redirectToFacebook = () => {
+    window.open(
+      "https://www.facebook.com/profile.php?id=100093374664373&mibextid=LQQJ4d",
+      "_blank"
+    );
+  };
+
+  const handleSearchClick = () => {
+    const searchQuery = "sathhela international"; // Replace with the actual search query
+    const googleSearchUrl = `https://www.google.com/search?q=${encodeURIComponent(
+      searchQuery
+    )}`;
+    window.open(googleSearchUrl, "_blank");
+  };
+
   return (
     <section className="bg-bgHint pt-20">
       <div className="lg:flex justify-between lg:gap-4 xl:gap-0 px-7 md:px-8 lg:px-14 xl:px-28 2xl:px-60 pb-20">
@@ -10,25 +25,31 @@ const Footer = () => {
         </span>
         <p className="md:w-1/2 text-textHint">Where Fashion Comes to Life.</p>
         <div className="flex items-center gap-4 mt-7 md:mt-6 lg:mt-0">
-          <div className="bg-[#333c44] w-8 h-8 flex items-center justify-center p-2 rounded-full hover:bg-primary transition-colors duration-300">
+          <div
+            onClick={redirectToFacebook}
+            className="bg-[#333c44] w-8 h-8 flex items-center justify-center p-2 rounded-full hover:bg-primary transition-colors duration-300 cursor-pointer"
+          >
             <StaticImage
               src="../../images/social-white/facebook-app-symbol.png"
               width={20}
             />
           </div>
-          <div className="bg-[#333c44] w-8 h-8 flex items-center justify-center p-2 rounded-full hover:bg-primary transition-colors duration-300">
+          <div className="bg-[#333c44] w-8 h-8 flex items-center justify-center p-2 rounded-full hover:bg-primary transition-colors duration-300 cursor-pointer">
             <StaticImage
               src="../../images/social-white/instagram.png"
               width={20}
             />
           </div>
-          <div className="bg-[#333c44] w-8 h-8 flex items-center justify-center p-2 rounded-full hover:bg-primary transition-colors duration-300">
+          <div className="bg-[#333c44] w-8 h-8 flex items-center justify-center p-2 rounded-full hover:bg-primary transition-colors duration-300 cursor-pointer">
             <StaticImage
               src="../../images/social-white/twitter.png"
               width={20}
             />
           </div>
-          <div className="bg-[#333c44] w-8 h-8 flex items-center justify-center p-2 rounded-full hover:bg-primary transition-colors duration-300">
+          <div
+            className="bg-[#333c44] w-8 h-8 flex items-center justify-center p-2 rounded-full hover:bg-primary transition-colors duration-300 cursor-pointer"
+            onClick={handleSearchClick}
+          >
             <StaticImage
               src="../../images/social-white/google.png"
               width={20}
