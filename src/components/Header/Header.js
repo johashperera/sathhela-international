@@ -47,6 +47,12 @@ const Header = ({
     window.open("https://www.instagram.com/daily.casuals/", "_blank");
   };
 
+  const handleCallGm = () => {
+    const phoneNumber = "+94762636255"; // Replace with the actual phone number
+    const telUri = `tel:${phoneNumber}`;
+    window.location.href = telUri;
+  };
+
   return (
     <>
       <div className="bg-secondary hidden lg:flex items-center justify-between lg:px-14 xl:px-28 2xl:px-52">
@@ -220,7 +226,12 @@ const Header = ({
                     <span>+94 76 263 6255</span>
                     <p>Have any Inquiries?</p>
                   </div>
-                  <button className="bg-primary py-2 w-full">Call Now</button>
+                  <button
+                    className="bg-primary py-2 w-full"
+                    onClick={handleCallGm}
+                  >
+                    Call Now
+                  </button>
                 </div>
               </div>
             </Drawer>
