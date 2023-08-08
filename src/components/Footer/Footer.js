@@ -9,6 +9,10 @@ const Footer = () => {
     );
   };
 
+  const redirectToInstagram = () => {
+    window.open("https://www.instagram.com/daily.casuals/", "_blank");
+  };
+
   const handleSearchClick = () => {
     const searchQuery = "sathhela international"; // Replace with the actual search query
     const googleSearchUrl = `https://www.google.com/search?q=${encodeURIComponent(
@@ -34,7 +38,10 @@ const Footer = () => {
               width={20}
             />
           </div>
-          <div className="bg-[#333c44] w-8 h-8 flex items-center justify-center p-2 rounded-full hover:bg-primary transition-colors duration-300 cursor-pointer">
+          <div
+            onClick={redirectToInstagram}
+            className="bg-[#333c44] w-8 h-8 flex items-center justify-center p-2 rounded-full hover:bg-primary transition-colors duration-300 cursor-pointer"
+          >
             <StaticImage
               src="../../images/social-white/instagram.png"
               width={20}

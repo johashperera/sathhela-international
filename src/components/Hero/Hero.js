@@ -12,7 +12,10 @@ const Hero = forwardRef((props, ref) => {
         <p className="text-sm sm:text-base">
           Let's step into enhance your lifestyle like a royalty
         </p>
-        <button className="bg-primary text-white py-2 px-4 w-44">
+        <button
+          className="bg-primary text-white py-2 px-4 w-44"
+          onClick={props.scrollToAboutUs}
+        >
           Read More
         </button>
       </div>
@@ -29,15 +32,14 @@ const Hero = forwardRef((props, ref) => {
           <span className="text-lg font-medium mt-5">
             We have the Good Stuff
           </span>
-          <p className="text-textHint">Authenticity in every stitch, always.</p>
+          <p className="text-textHint">
+            We offer top-quality fashion for the best you.
+          </p>
         </div>
         <div className="text-center flex flex-col items-center shadow-md px-8 py-10">
           <StaticImage src="../../images/export.png" width={50} />
           <span className="text-lg font-medium mt-5">Always Genuine</span>
-          <p className="text-textHint">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et
-            metus vel odio pellentesque pellentesque
-          </p>
+          <p className="text-textHint">Authenticity in every stitch, always.</p>
         </div>
       </div>
     </section>

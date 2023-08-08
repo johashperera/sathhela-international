@@ -48,10 +48,16 @@ const AboutUs = forwardRef((props, ref) => {
             </div>
           </div>
           <div className="mt-8 flex items-center gap-4">
-            <button className="bg-primary text-white px-6 py-2 ">
+            <button
+              className="bg-primary text-white px-6 py-2"
+              onClick={props.scrollToContactUs}
+            >
               Contact Us
             </button>
-            <button className="bg-transparent border border-textHint text-textHint px-6 py-2">
+            <button
+              className="bg-transparent border border-textHint text-textHint px-6 py-2"
+              onClick={props.scrollToProducts}
+            >
               View Products
             </button>
           </div>

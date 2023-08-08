@@ -43,6 +43,10 @@ const Header = ({
     );
   };
 
+  const redirectToInstagram = () => {
+    window.open("https://www.instagram.com/daily.casuals/", "_blank");
+  };
+
   return (
     <>
       <div className="bg-secondary hidden lg:flex items-center justify-between lg:px-14 xl:px-28 2xl:px-52">
@@ -65,7 +69,7 @@ const Header = ({
               width={18}
             />
           </div>
-          <div className="cursor-pointer">
+          <div onClick={redirectToInstagram} className="cursor-pointer">
             <StaticImage
               src="../../images/social-white/instagram.png"
               width={18}

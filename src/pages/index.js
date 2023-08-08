@@ -47,8 +47,12 @@ const HomePage = () => {
         scrollToProducts={scrollToProducts}
         scrollToContactUs={scrollToContactUs}
       />
-      <Hero ref={heroRef} />
-      <AboutUs ref={aboutUsRef} />
+      <Hero ref={heroRef} scrollToAboutUs={scrollToAboutUs} />
+      <AboutUs
+        ref={aboutUsRef}
+        scrollToProducts={scrollToProducts}
+        scrollToContactUs={scrollToContactUs}
+      />
       <Services ref={servicesRef} />
       <Details />
       <Products ref={productsRef} />
