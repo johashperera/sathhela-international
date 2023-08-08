@@ -1,5 +1,6 @@
 import { StaticImage } from "gatsby-plugin-image";
 import React from "react";
+import { Tooltip } from "react-tooltip";
 
 const Footer = () => {
   const redirectToFacebook = () => {
@@ -76,7 +77,18 @@ const Footer = () => {
             className="bg-[#26313A] outline-none px-4 py-2"
             placeholder="Your Email"
           />
-          <button className="bg-primary text-white py-3">Subscribe</button>
+          <button
+            className="bg-primary text-white py-3"
+            disabled
+            data-tooltip-id="subscribe-tooltip"
+          >
+            Subscribe
+          </button>
+          <Tooltip
+            id="subscribe-tooltip"
+            place="top"
+            content="This feature is not available yet. Check again later!"
+          />
         </div>
       </div>
       <div className="bg-[#1E2830] mt-10 text-center py-4">
