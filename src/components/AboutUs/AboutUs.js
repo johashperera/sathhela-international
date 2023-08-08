@@ -32,19 +32,19 @@ const AboutUs = forwardRef((props, ref) => {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-2 mt-8">
             <div className="flex items-center gap-2 text-white">
               <StaticImage src="../../images/check-mark.png" width={25} />
-              <p>Lorem ipsum dolor sit</p>
+              <p>Extensive Experience</p>
             </div>
             <div className="flex items-center gap-2 text-white">
               <StaticImage src="../../images/check-mark.png" width={25} />
-              <p>Lorem ipsum dolor sit</p>
+              <p>Innovative Product Range</p>
             </div>
             <div className="flex items-center gap-2 text-white">
               <StaticImage src="../../images/check-mark.png" width={25} />
-              <p>Lorem ipsum dolor sit</p>
+              <p>Quality Assurance</p>
             </div>
             <div className="flex items-center gap-2 text-white">
               <StaticImage src="../../images/check-mark.png" width={25} />
-              <p>Lorem ipsum dolor sit</p>
+              <p>Sustainable Practices</p>
             </div>
           </div>
           <div className="mt-8 flex items-center gap-4">
