@@ -87,7 +87,7 @@ const Footer = () => {
           <Tooltip
             id="subscribe-tooltip"
             place="top"
-            content="This feature is not available yet. Check again later!"
+            content="This feature is not available yet. Try again later!"
           />
         </div>
       </div>
