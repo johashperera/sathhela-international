@@ -2,6 +2,7 @@ import React, { forwardRef, useState } from "react";
 import LadiesBriefs from "./LadiesBriefs/LadiesBriefs";
 import Leggings from "./Leggings/Leggings";
 import TShirts from "./TShirts/TShirts";
+import Boxers from "./Boxers/Boxers";
 import Select from "react-select";
 
 const Products = forwardRef((props, ref) => {
@@ -83,6 +84,8 @@ const Products = forwardRef((props, ref) => {
         return <Leggings />;
       case 3:
         return <TShirts />;
+      case 4:
+        return <Boxers />;
       default:
         return null;
     }

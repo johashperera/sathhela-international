@@ -14,6 +14,12 @@ const Brands = () => {
         <div>
           <StaticImage src="../../images/Brands/oleena.png" width={150} />
         </div>
+        <div>
+          <StaticImage src="../../images/Brands/alpha.png" width={150} />
+        </div>
+        <div>
+          <StaticImage src="../../images/Brands/sixer.png" width={150} />
+        </div>
       </div>
     </section>
   );
